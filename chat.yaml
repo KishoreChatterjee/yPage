@@ -1,0 +1,89 @@
+language: "en"
+
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "CountVectorsFeaturizer"
+  - name: "EmbeddingIntentClassifier"
+
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there
+    - Good morning
+    - Good afternoon
+    - Evening
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - Take care
+    - Farewell
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - Thanks a lot
+    - Thank you so much
+
+- intent: ask_weather
+  examples: |
+    - What's the weather like today?
+    - Can you tell me the weather forecast?
+    - Is it going to rain today?
+    - How's the weather outside?
+
+- intent: ask_time
+  examples: |
+    - What time is it?
+    - Can you tell me the current time?
+    - Do you have the time?
+    - Could you tell me what time it is now?
+
+- intent: joke
+  examples: |
+    - Tell me a joke
+    - Can you make me laugh?
+    - Share a funny joke with me
+    - I could use a good laugh
+    - Joke time!
+
+- intent: compliments
+  examples: |
+    - You're doing great!
+    - I like talking to you
+    - You're awesome
+    - You're very helpful
+    - You're a fantastic chatbot
+
+- intent: complain
+  examples: |
+    - I'm not happy with the service
+    - This is frustrating
+    - I'm having a problem
+    - This isn't working as expected
+    - I need some help here
+
+- intent: feedback
+  examples: |
+    - I have some feedback
+    - Can I give you some feedback?
+    - Here's my feedback
+    - I'd like to provide some feedback
+    - Feedback time
+
+- intent: ask_help
+  examples: |
+    - Can you help me?
+    - I need assistance
+    - Help!
+    - Please help me with this
+    - I'm stuck, can you help?
+assistant_id: 20240430-132935-impulsive-frequency

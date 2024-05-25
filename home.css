@@ -1,0 +1,66 @@
+/* yoga/static/css/styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-image {
+    background-image: url('/static/images/1.jpg'); /* Change 'background.jpg' to the path of your background image */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Display flex items vertically */
+    align-items: center; /* Center flex items horizontally */
+}
+
+.links a {
+    display: block; /* Change links to block elements */
+    margin-bottom: 50px; /* Add margin between the links */
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.chatbot-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+}

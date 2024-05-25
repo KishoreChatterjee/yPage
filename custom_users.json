@@ -1,0 +1,60 @@
+{
+    "user": [
+        {
+            "full_name": "",
+            "username": "",
+            "email": "",
+            "phone_number": "",
+            "gender": "",
+            "password": ""
+        },
+        {
+            "full_name": "Kishore Chatterjee",
+            "username": "deep007",
+            "email": "kishorechatterjee93@gmail.com",
+            "phone_number": "08790026824",
+            "gender": "M",
+            "password": "deep1234"
+        },
+        {
+            "full_name": "Roni Banerjee",
+            "username": "Roni007 ",
+            "email": "RoniKumar@gmail.com",
+            "phone_number": "1232343454",
+            "gender": "M",
+            "password": "roni1234"
+        },
+        {
+            "full_name": "Sugam Kumar",
+            "username": "sugam",
+            "email": "Sugam@gmail.com",
+            "phone_number": "123456789",
+            "gender": "M",
+            "password": "sugam12345"
+        },
+        {
+            "full_name": "Alok Chatterjee",
+            "username": "joy007",
+            "email": "alokchatterjee88@gmail.com",
+            "phone_number": "9652679712",
+            "gender": "M",
+            "password": "joy1234"
+        },
+        {
+            "full_name": "Sharad singh",
+            "username": "Sharad",
+            "email": "sharad@gmail.com",
+            "phone_number": "123454321",
+            "gender": "M",
+            "password": "$2b$12$kW1In2naqKAiUR0re./zcuU/V8YMxrkmKaTey9yK1Mnn2lZ8ycg9q"
+        },
+        {
+            "full_name": "m srinath",
+            "username": "sree",
+            "email": "shreenath@gmail.com",
+            "phone_number": "9177610320",
+            "gender": "M",
+            "password": "$2b$12$PRfcw1UZd775WwXpTquoOe424/gSkLEHnfQoGGJxehmhsOBksjF.y"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+/* Custom CSS styles for the login page */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/static/images/2.jpg'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card form {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}

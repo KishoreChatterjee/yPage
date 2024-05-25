@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+- story: asking time zone
+  steps:
+  - intent: find_time_zone
+  - action: utter_ask_city_info
+  - intent: city_info
+  - action: utter_finding_timezone
+  - action: utter_you_are_welcome
